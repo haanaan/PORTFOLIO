@@ -10,8 +10,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #f5f5f5;
-  color: #4e4e4e;
+  background-color: #cf97b0;
+  color: #181818;
 }
 
 h1,
@@ -23,8 +23,13 @@ h6 {
   color: #1e1e1e;
 }
 
+.btn-custom {
+  background-color: rgb(151, 86, 97); /* Couleur de fond */
+  color: white; /* Couleur du texte */
+}
+
 a {
-  color: #1e1e1e;
+  color: #000000;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -142,6 +147,14 @@ a:hover {
   margin-top: 4rem;
 }
 
+.title-l {
+  font-weight: 600;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
@@ -169,7 +182,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #0078ff;
+  background-color: #972588;
   margin: 0 auto;
 }
 
@@ -211,6 +224,7 @@ a:hover {
     padding: 3rem;
   }
 }
+
 
 /*------/ Socials /------*/
 .socials {
@@ -270,7 +284,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+
   display: block;
 }
 
@@ -339,7 +353,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #ff9eda;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -353,7 +367,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #298eff;
+  background: #ff9eda;
   color: #fff;
 }
 
@@ -380,7 +394,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #0078ff;
+  border-top: 6px solid #ff9eda;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -871,16 +885,21 @@ a:hover {
   text-align: center;
 }
 
+.service-box:hover {
+  transition: all 500ms ease;
+  box-shadow: 0 0 0 10px #440732a9;
+}
+
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #f4cdf8;
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
   color: #1e1e1e;
+
 }
 
 .service-box .ico-circle {
@@ -969,17 +988,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #0078ff;
+  color: #790045;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: #000000;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: #000000;
 }
 
 .work-content .w-like .num-like {
@@ -1446,7 +1465,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #0062d3;
+  background: #3d0025;
 }
 
 footer .copyright {
@@ -1458,5 +1477,5 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: #ffffff;
 }
