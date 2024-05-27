@@ -1074,6 +1074,36 @@ a:hover {
   padding: 0;
 }
 
+.modal-xl {
+  max-width: 90%; 
+}
+
+.custom-modal .modal-content {
+  background-color: #cf97b0; /* Couleur de fond personnalisée */
+  color: #000000; /* Couleur du texte personnalisée */
+}
+
+.custom-modal .modal-header {
+  background-color: #8a566d; /* Couleur de fond de l'en-tête */
+  color: #fff; /* Couleur du texte de l'en-tête */
+}
+
+.custom-modal .modal-title {
+  color: #ffffff;
+}
+
+.custom-modal .modal-footer {
+  background-color: #8a566d; /* Couleur de fond du pied de page */
+}
+
+.custom-modal .close-btn {
+  background-color: #753753; /* Couleur de fond du bouton */
+  color: #fff; /* Couleur du texte */
+  border: none; 
+  padding: 10px 20px; 
+}
+
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
