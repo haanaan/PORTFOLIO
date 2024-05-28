@@ -1103,6 +1103,16 @@ a:hover {
   padding: 10px 20px; 
 }
 
+.col-competence {
+  width: 20%; /* Ajustez ce pourcentage selon vos besoins */
+}
+
+.col-description {
+  width: 80%; /* Ajustez ce pourcentage selon vos besoins */
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Testimonials
